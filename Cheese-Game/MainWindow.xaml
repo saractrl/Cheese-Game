@@ -197,7 +197,7 @@
 
         <!-- Buttons -->
         <Button Content="NEW GAME" HorizontalAlignment="Left" Grid.Row="8" VerticalAlignment="Top" Grid.ColumnSpan="4" Width="124" BorderBrush="White" Foreground="White" Height="28"  FontFamily="Consolas" FontWeight="Bold" FontSize="20" Background="Black" Margin="45,30,0,0" Grid.RowSpan="2" BorderThickness="2,2,2,2"/>
-        <Button Content="HELP" HorizontalAlignment="Left" Grid.Row="8" VerticalAlignment="Top" Width="100" BorderBrush="White" Foreground="White" Height="28"  FontFamily="Consolas" FontWeight="Bold" FontSize="20" Grid.Column="6" Background="Black" Grid.ColumnSpan="3" Margin="5,30,0,0" Grid.RowSpan="2" BorderThickness="2,2,2,2"/>
+        <Button Content="HELP" HorizontalAlignment="Left" Grid.Row="8" VerticalAlignment="Top" Width="100" BorderBrush="White" Foreground="White" Height="28"  FontFamily="Consolas" FontWeight="Bold" FontSize="20" Grid.Column="6" Background="Black" Grid.ColumnSpan="3" Margin="5,30,0,0" Grid.RowSpan="2" BorderThickness="2,2,2,2" Click="OnHelp"/>
 
         <!-- Horizontal buttons -->
 
