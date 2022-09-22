@@ -25,6 +25,9 @@ namespace Cheese_Game
             InitializeComponent();
         }
 
-      
+        private void OnClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
