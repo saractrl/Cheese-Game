@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml;
 
 namespace Cheese_Game
 {
@@ -25,9 +26,21 @@ namespace Cheese_Game
             InitializeComponent();
         }
 
-        private void OnClick(object sender, RoutedEventArgs e)
-        {
+        bool click = true;
+       
 
+        public void OnClick(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            if (click)
+            {
+                b.Background = new SolidColorBrush(Color.FromRgb(0xC3, 0x00, 0xFF)); 
+            }
+            else
+            {
+                b.Background = new SolidColorBrush(Color.FromRgb(0xE7, 0xFF, 0x08));
+            }
+             
         }
     }
 }
