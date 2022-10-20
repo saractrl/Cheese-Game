@@ -21,41 +21,33 @@ namespace Cheese_Game
     /// </summary>
     public partial class MainWindow : Window
     {
+        // Connected to lines
+        public Lines button = new();
+
         public MainWindow()
         {
             InitializeComponent();
         }
-        // This part of the code interchanges the colors after very turn the player takes.
+    
 
+        // Is connected to the class "Lines", this changes the line colours.
         public void OnClick(object sender, RoutedEventArgs e)
         {
 
-            bool turn = true;
-
-            Button b = (Button)sender;
-
-            if (turn)
-            {
-                b.Background = new SolidColorBrush(Color.FromRgb(0xC3, 0x00, 0xFF));
-                
-            }
-            else
-            {
-                b.Background = new SolidColorBrush(Color.FromRgb(0xE7, 0xFF, 0x08));
-            }
-
-            turn = !turn;
-            // Sets turn back to false, so the color changes again.
-
-
+            button.OnClick(sender, e);
+        
         }
 
+        // By clicking the button "HELP" a website will pop up, that explains how the game works.
         private void OnHelp(object sender, RoutedEventArgs e)
         {
-            //const string webpageUrl = "https://google.com/";
+            const string webpageUrl = "https://saractrl.github.io/Cheese-Game/";
+            System.Diagnostics.Process.Start("explorer.exe", webpageUrl);
+        }
 
-            //System.Diagnostics.Process.Start("https://google.com/");   
-
+        private void OnNewGame(object sender, RoutedEventArgs e)
+        {
+           
         }
     }
 }
