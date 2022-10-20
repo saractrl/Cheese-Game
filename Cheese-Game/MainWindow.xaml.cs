@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml;
 
 namespace Cheese_Game
 {
@@ -24,9 +25,32 @@ namespace Cheese_Game
         {
             InitializeComponent();
         }
+        // This part of the code interchanges the colors after very turn the player takes.
 
-        private void OnClick(object sender, RoutedEventArgs e)
+        public void OnClick(object sender, RoutedEventArgs e)
         {
+            bool turn = true;
+
+            Button b = (Button)sender;
+            if (turn)
+            {
+                b.Background = new SolidColorBrush(Color.FromRgb(0xC3, 0x00, 0xFF));
+            }
+            else
+            {
+                b.Background = new SolidColorBrush(Color.FromRgb(0xE7, 0xFF, 0x08));
+            }
+
+            // Sets turn back to false, so the color changes again.
+            turn = !turn;
+
+        }
+
+        private void OnHelp(object sender, RoutedEventArgs e)
+        {
+            //const string webpageUrl = "https://google.com/";
+
+            //System.Diagnostics.Process.Start("https://google.com/");   
 
         }
     }
