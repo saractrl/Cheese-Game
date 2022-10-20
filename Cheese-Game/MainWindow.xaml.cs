@@ -29,20 +29,24 @@ namespace Cheese_Game
 
         public void OnClick(object sender, RoutedEventArgs e)
         {
+
             bool turn = true;
 
             Button b = (Button)sender;
+
             if (turn)
             {
                 b.Background = new SolidColorBrush(Color.FromRgb(0xC3, 0x00, 0xFF));
+                
             }
             else
             {
                 b.Background = new SolidColorBrush(Color.FromRgb(0xE7, 0xFF, 0x08));
             }
 
-            // Sets turn back to false, so the color changes again.
             turn = !turn;
+            // Sets turn back to false, so the color changes again.
+
 
         }
 
