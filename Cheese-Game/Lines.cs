@@ -21,7 +21,7 @@ namespace Cheese_Game
             if (turn)
             {
                 b.Background = new SolidColorBrush(Color.FromRgb(0xC3, 0x00, 0xFF));
-                b.IsEnabled = false;
+
             }
             else
             {
