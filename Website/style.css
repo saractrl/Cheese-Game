@@ -20,6 +20,11 @@
     left: 0;
   }
 
+  @font-face {
+    font-family: gabato;
+    src: url(gabato/Gabato.ttf);
+  }
+
   .titleheading {
     position: relative;
     justify-content: center;
