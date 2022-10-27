@@ -1,0 +1,130 @@
+  body {
+    background-image: url(imgs/stars.webm);
+    padding: 0;
+    margin: 0;
+  }
+
+ /*   #stars-background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  } */
+
+  #stars-background {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .titleheading {
+    position: relative;
+    justify-content: center;
+    color: white;
+    font-family: gabato;
+    font-size: 70px;
+    text-align: center;
+
+    animation: color-change 2s infinite;
+  }
+
+  @keyframes color-change {
+    0% { color: yellow; }
+    25% { color: rgb(230, 0, 255); }
+    50% { color: rgb(255, 0, 0); }
+    75% { color: rgb(55, 0, 255); }
+    100% { color: yellow; }
+  }
+
+  .container {
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .btn{
+    padding: 10px 25px;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 5px;
+    font-family: consolas;
+    font-weight: bold;
+    margin-top: 10%;
+    text-align: center;
+   }
+
+  .popup-title {
+    color: white;
+    font-family: consolas;
+    font-size: 23px;
+    font-weight: uppercase;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+
+  .popup-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+  }
+
+  .instruction-text {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: consolas;
+    text-align: left;
+    margin-top: 30px;
+  }
+
+  .ok-button {
+    padding: 5px 50px;
+    outline: 3px;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 5px;
+    font-family: consolas;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  .popup {
+    width: 500px;
+    height: 314px;
+    border-radius: 5px;  /* border radius of the pupup window */
+    position: absolute;
+    align-items: center;
+    left: 50%;
+    top: 0%;
+
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0px 30px 30px; 
+    background-image: url(imgs/popup\ ver\ 1.png);
+    visibility: hidden;   /* popup hidden while not showing instructions */
+    transition: transform 0.4s, center 0.4s;
+    overflow-y: scroll; /*scrollbar*/
+  }
+
+    ::-webkit-scrollbar { /* hides scrollbar */
+      width: 0px;
+      background: transparent;
+  }  
+
+  .openPopup { /*pop up window with*/
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+  } 
+  
+
+

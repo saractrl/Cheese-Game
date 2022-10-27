@@ -1,13 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
-    <p>hey girl</p>
+
+    
+     <video autoplay muted loop plays-inline id="stars-background">
+        <source src="imgs/stars.webm" type="video/webm">
+    </video>
+
+<h1 class="titleheading">The Cheese Game</h1>
+
+<div class="container">
+    <button type="submit" class="btn" onclick="openPopup()"> get the instructions </button>
+    <div class="popup" id="popup">
+        
+       <div class="popup-sticky"><h1 class="popup-title"> instructions : how to play </h1></div> 
+
+        <p class="instruction-text"> This Game comes as a simple game with simple and not many rules. <br> <br>
+            The Cheesegame, also known as Dots and Boxes, is a game which is played by two players. 
+            It begins with an empty grid of dots. Players must take turns 
+            in connecting the dots to form a box, with a horizontal or a vertical 
+            line between two unconnected dots. The player who completes a 1 x 1 box 
+            receives a point and takes another turn. Once a player has completed a 
+            box, a cross will appear inside the completed box with the color the player 
+            used to draw the lines. The game finishes when there are no more lines to be 
+            set and the player with the most points wins. 
+        </p>
+        <button type="button" class="ok-button" onclick="closePopup()"> OK </button>
+    </div>
+</div>
+
+
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup() {
+    popup.classList.add("openPopup")
+}
+
+function closePopup() {
+    popup.classList.remove("openPopup")
+}
+</script>
+
 </body>
 </html>
