@@ -6,9 +6,16 @@ using System.Threading.Tasks;
 
 namespace Cheese_Game
 {
-    internal class Player
+    public class Player
     {
+
+
+       
+        public void countBox() { 
         
+        
+        
+        }
 
     
     }

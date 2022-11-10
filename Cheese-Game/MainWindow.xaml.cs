@@ -23,6 +23,7 @@ namespace Cheese_Game
     {
         // Connected to lines
         public Lines button = new();
+        public Lines newgame = new();
 
         public MainWindow()
         {
@@ -45,9 +46,9 @@ namespace Cheese_Game
             System.Diagnostics.Process.Start("explorer.exe", webpageUrl);
         }
 
-        private void OnNewGame(object sender, RoutedEventArgs e)
-        {
-           
-        }
+        //private void OnNewGame(object sender, RoutedEventArgs e)
+        //{
+        //    newgame.OnNewGame(sender, e);
+        //}
     }
 }
