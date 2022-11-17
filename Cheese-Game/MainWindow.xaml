@@ -57,11 +57,11 @@
         <Ellipse HorizontalAlignment="Center" Height="10"  VerticalAlignment="Center" Width="10" Fill="White" Grid.Row="6" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
 
         <!-- Buttons -->
-        <Button  HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.ColumnSpan="2"  Click="OnClick" Grid.Column="1" />
-        <Button HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Button HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Button HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Background="White" Height="36" Width="4" BorderBrush="{x:Null}"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Button HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Button  HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4" Grid.ColumnSpan="2"  Click="OnClick" Grid.Column="1" />
+        <Button HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Button HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Button HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="36" Width="4"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Button HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
 
 
 
@@ -76,11 +76,11 @@
 
 
         <!-- Buttons -->
-        <Button HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="2" Grid.ColumnSpan="2" Click="OnClick" />
-        <Button HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="2" Click="OnClick" Grid.ColumnSpan="2"/>
-        <Button HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="2" Click="OnClick" Grid.ColumnSpan="2"/>
-        <Button HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Background="White" Height="39" Width="4" BorderBrush="{x:Null}" Grid.Column="2" Click="OnClick" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="2" Click="OnClick" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="2" Grid.ColumnSpan="2" Click="OnClick" />
+        <Button HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="2" Click="OnClick" Grid.ColumnSpan="2"/>
+        <Button HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="2" Click="OnClick" Grid.ColumnSpan="2"/>
+        <Button HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="39" Width="4"  Grid.Column="2" Click="OnClick" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="2" Click="OnClick" Grid.ColumnSpan="2" />
 
 
 
@@ -95,11 +95,11 @@
         <Ellipse HorizontalAlignment="Center" Height="10"  VerticalAlignment="Center" Width="10" Fill="White"  Grid.Column="3" Grid.Row="6" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
 
         <!-- Buttons -->
-        <Button HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="3" Click="OnClick" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="3" Click="OnClick" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="3" Click="OnClick" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Background="White" Height="39" Width="4" BorderBrush="{x:Null}" Grid.Column="3" Click="OnClick" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="3" Click="OnClick" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="3" Click="OnClick" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="3" Click="OnClick" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="3" Click="OnClick" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="39" Width="4"  Grid.Column="3" Click="OnClick" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="3" Click="OnClick" Grid.ColumnSpan="2" />
 
 
         <!--Column 04 -->
@@ -111,11 +111,11 @@
         <Ellipse HorizontalAlignment="Center" Height="10"  VerticalAlignment="Center" Width="10" Fill="White"  Grid.Column="4" Grid.Row="6" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
 
         <!-- Buttons -->
-        <Button HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="4" Click="OnClick" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="4" Click="OnClick" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="4" Click="OnClick" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="4" Click="OnClick" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="4" Click="OnClick" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="4" Click="OnClick" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="4" Click="OnClick" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="4" Click="OnClick" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="4" Click="OnClick" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="4" Click="OnClick" Grid.ColumnSpan="2" />
 
 
         <!--Column 05 -->
@@ -128,11 +128,11 @@
 
 
         <!-- Buttons -->
-        <Button HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Click="OnClick" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="5" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Click="OnClick" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="5" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Click="OnClick" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="5" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Click="OnClick" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="5" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Click="OnClick" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="5" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0].Left.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
 
         <!--Column 06 -->
         <Ellipse HorizontalAlignment="Center" Height="10"  VerticalAlignment="Center" Width="10" Fill="White"  Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="2"/>
@@ -144,11 +144,11 @@
 
 
         <!-- Buttons -->
-        <Button HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Click="OnClick" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="6" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Click="OnClick" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="6" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Click="OnClick" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="6" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Click="OnClick" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="6" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Click="OnClick" Background="White" Height="38" Width="4" BorderBrush="{x:Null}" Grid.Column="6" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0].Right.Color}" Height="38" Width="4"  Grid.Column="6" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0].Right.Color}" Height="38" Width="4"  Grid.Column="6" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0].Right.Color}" Height="38" Width="4"  Grid.Column="6" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0].Right.Color}" Height="38" Width="4"  Grid.Column="6" Grid.ColumnSpan="2" />
+        <Button HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0].Right.Color}" Height="38" Width="4"  Grid.Column="6" Grid.ColumnSpan="2" />
 
 
 
@@ -162,49 +162,42 @@
 
         <!-- Row 01 -->
 
-        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="1" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2" />
-        <Button Grid.Column="4" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="1" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="1" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="1" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="6" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="1" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-
-        <!-- Row 02 -->
-
-        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="2" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="4" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="2" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="2" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="2" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="6" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="2" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-
-
-        <!-- Row 03 -->
-        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="3" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="4" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="3" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="3" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="3" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="6" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="3" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="1" VerticalAlignment="Center" Width="38" Background="{Binding [0].Top.Color}" Click="OnClick" Grid.RowSpan="2" />
+        <Button Grid.Column="4" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="1" VerticalAlignment="Center" Width="38" Background="{Binding [0].Top.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="1" VerticalAlignment="Center" Width="38" Background="{Binding [0].Top.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="1" VerticalAlignment="Center" Width="38" Background="{Binding [0].Top.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="6" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="1" VerticalAlignment="Center" Width="38" Background="{Binding [0].Top.Color}" Click="OnClick" Grid.RowSpan="2"/>
+                                                                                                                                           
+        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="2" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="4" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="2" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="2" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="2" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="6" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="2" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+                                                                                                                                           
+        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="3" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="4" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="3" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="3" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="3" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="6" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="3" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
 
         <!-- Row 04 -->
-        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="4" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="4" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="4" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="4" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="4" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="6" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="4" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-
-
-        <!-- Row 05 -->
-        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="5" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="4" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="5" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="5" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="5" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="6" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="5" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-
-        <!-- Row 06 -->
-        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="6" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="4" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="6" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="6" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="6" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
-        <Button Grid.Column="6" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="6" VerticalAlignment="Center" Width="38" Background="White" BorderBrush="{x:Null}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="4" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="4" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="4" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="4" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="4" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="6" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="4" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+                                                                                                                                          
+        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="5" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="4" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="5" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="5" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="5" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="6" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="5" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+                                                                                                                                           
+        <Button Grid.Column="3" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="6" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="4" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="6" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="2" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="6" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="5" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="6" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
+        <Button Grid.Column="6" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="6" VerticalAlignment="Center" Width="38" Background="{Binding [0].Bottom.Color}" Click="OnClick" Grid.RowSpan="2"/>
 
 
         <!-- Row 07 -->
