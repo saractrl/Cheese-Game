@@ -122,7 +122,7 @@ namespace Cheese_Game
         // Is connected to the class "Lines", this changes the line colours.
         public void OnClick(object sender, RoutedEventArgs e)
         {
-            _ = sender;
+            //_ = sender;
             //button.OnClick(sender, e);
 
         }
@@ -134,10 +134,10 @@ namespace Cheese_Game
             System.Diagnostics.Process.Start("explorer.exe", webpageUrl);
         }
 
-        //private void OnNewGame(object sender, RoutedEventArgs e)
-        //{
-        //    newgame.OnNewGame(sender, e);
-        //}
+       private void OnNewGame(object sender, RoutedEventArgs e)
+       {
+          
+       }
         public class Element : INotifyPropertyChanged
         {
             public Site Left { get; set; }
@@ -162,10 +162,10 @@ namespace Cheese_Game
             }
             private Brush color;
 
-            public Element()
-            {
-                Color = Brushes.Pink;
-            }
+            //public Element()
+            //{
+            //    Color = Brushes.Pink;
+            //}
 
             public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -188,7 +188,7 @@ namespace Cheese_Game
                 set
                 {
                     this.color = value;
-                    //NotifyPropertyChanged();
+                    NotifyPropertyChanged();
                 }
             }
             private Brush color;

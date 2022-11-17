@@ -12,7 +12,7 @@ namespace Cheese_Game
 {
     public class Lines
     {
-        private bool turn = true;
+        //private bool turn = true;
 
 
 
@@ -39,24 +39,25 @@ namespace Cheese_Game
         //    this.turn = !this.turn;
 
 
-        //    // Sets turn back to false, so the color changes again.
+        // Sets turn back to false, so the color changes again.
 
-        //    //public void BoxDetect()
-        //    //{ 
-
-
-            //}
+        //public void BoxDetect()
+        //{ 
 
 
+        //}
 
 
 
 
-            //public void OnNewGame(object sender, RoutedEventArgs e)
-            //{
 
 
-            //}
+        //public void OnNewGame(object sender, RoutedEventArgs e)
+        //{
+
+
+        //}
+        //    }
         //}
     }
 }
