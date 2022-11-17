@@ -30,7 +30,7 @@ namespace Cheese_Game
         // Connected to lines
         public Lines button = new();
         public Lines newgame = new();
-
+        private bool turn = true;
         List<List<Element>> elements = new List<List<Element>>();
 
 
@@ -122,8 +122,27 @@ namespace Cheese_Game
         // Is connected to the class "Lines", this changes the line colours.
         public void OnClick(object sender, RoutedEventArgs e)
         {
-            
-            button.OnClick(sender, e);
+
+            //_ = sender;
+            //button.OnClick(sender, e);
+            Button b = (Button)sender;
+
+           
+
+            if (this.turn)
+            {
+
+                b.Background = new SolidColorBrush(Color.FromRgb(0xC3, 0x00, 0xFF));
+
+            }
+            else
+            {
+                b.Background = new SolidColorBrush(Color.FromRgb(0xE7, 0xFF, 0x08));
+            }
+
+            b.IsEnabled = false;
+            this.turn = !this.turn;
+
 
         }
 
@@ -134,10 +153,10 @@ namespace Cheese_Game
             System.Diagnostics.Process.Start("explorer.exe", webpageUrl);
         }
 
-        //private void OnNewGame(object sender, RoutedEventArgs e)
-        //{
-        //    newgame.OnNewGame(sender, e);
-        //}
+       private void OnNewGame(object sender, RoutedEventArgs e)
+       {
+          
+       }
         public class Element : INotifyPropertyChanged
         {
             public Site Left { get; set; }
@@ -162,10 +181,10 @@ namespace Cheese_Game
             }
             private Brush color;
 
-            public Element()
-            {
-                Color = Brushes.Pink;
-            }
+            //public Element()
+            //{
+            //    Color = Brushes.Pink;
+            //}
 
             public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -188,7 +207,7 @@ namespace Cheese_Game
                 set
                 {
                     this.color = value;
-                    //NotifyPropertyChanged();
+                    NotifyPropertyChanged();
                 }
             }
             private Brush color;
