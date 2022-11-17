@@ -32,13 +32,13 @@ namespace Cheese_Game
         public Lines newgame = new();
 
         List<List<Element>> elements = new List<List<Element>>();
-      
+
 
         public MainWindow()
         {
             InitializeComponent();
 
-            foreach(List<Element> listElement in elements)
+            foreach (List<Element> listElement in elements)
             {
                 // Row
                 int indexRow = elements.FindIndex(e => e.Equals(listElement));
@@ -88,7 +88,7 @@ namespace Cheese_Game
             //    }
             //    else
             //    {
-                 
+
             //        element.Left = element[index - 1].Right;
             //    }
             //}
@@ -122,8 +122,8 @@ namespace Cheese_Game
         // Is connected to the class "Lines", this changes the line colours.
         public void OnClick(object sender, RoutedEventArgs e)
         {
-            _ = sender;
-            //button.OnClick(sender, e);
+            
+            button.OnClick(sender, e);
 
         }
 
