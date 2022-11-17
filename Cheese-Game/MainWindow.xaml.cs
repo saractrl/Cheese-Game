@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Security.Policy;
 using System.Text;
@@ -17,6 +18,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml;
 using System.Xml.Linq;
+using static Cheese_Game.MainWindow;
 
 namespace Cheese_Game
 {
@@ -36,45 +38,80 @@ namespace Cheese_Game
         {
             InitializeComponent();
 
-            for (int i = 0; i < 15; i++)
+            foreach(List<Element> listElement in elements)
             {
-                elements.Add(new Element());
-            }
-            foreach (Element element in elements)
-            {
-                int index = elements.FindIndex(e => e.Equals(element));
+                // Row
+                int indexRow = elements.FindIndex(e => e.Equals(listElement));
 
-                element.Right = new Site();
-
-                if (index == 0)
+                foreach (Element element in listElement)
                 {
-                    element.Left = new Site();
-                }
-                else
-                {
-                    element.Left = elements[index - 1].Right;
-                }
-            }
+                    // Column
+                    int indexColumn = listElement.FindIndex(e => e.Equals(element));
 
-            for (int i = 0; i < 15; i++)
-            {
-                elements.Add(new Element());
-            }
-            foreach (Element element in elements)
-            {
-                int index = elements.FindIndex(e => e.Equals(element));
+                    element.Bottom = new Site();
 
-                element.Top = new Site();
+                    if (indexRow == 0)
+                    {
+                        element.Top = new Site();
+                    }
+                    else
+                    {
+                        element.Top = elements[indexRow - 1][indexColumn].Bottom;
+                    }
+                    element.Right = new Site();
 
-                if (index == 0)
-                {
-                    element.Top = new Site();
-                }
-                else
-                {
-                    element.Left = elements[index - 1].Bottom;
+                    if (indexColumn == 0)
+                    {
+                        element.Left = new Site();
+                    }
+                    else
+                    {
+                        element.Left = listElement[indexColumn - 1].Right;
+                    }
                 }
             }
+
+
+            //for (int i = 0; i <= 5; i++)
+            //{
+            //    elements.Add(new List<Element>());
+            //}
+            //foreach (Element element in elements)
+            //{
+            //    int index = elements.FindIndex(e => e.Equals(element));
+
+            //    element.Right = new Site();
+
+            //    if (index == 0)
+            //    {
+            //        element.Left = new Site();
+            //    }
+            //    else
+            //    {
+                 
+            //        element.Left = element[index - 1].Right;
+            //    }
+            //}
+
+            //for (int i = 0; i <= 5; i++)
+            //{
+            //    elements.Add(new List<Element>());
+            //}
+            //foreach (Element element in elements)
+            //{
+            //    int index = elements.FindIndex(e => e.Equals(element));
+
+            //    element.Bottom = new Site();
+
+            //    if (index == 0)
+            //    {
+            //        element.Bottom = new Site();
+            //    }
+            //    else
+            //    {
+            //        element.Top = elements[index - 1].Bottom;
+            //    }
+            //}
 
 
 
@@ -85,8 +122,8 @@ namespace Cheese_Game
         // Is connected to the class "Lines", this changes the line colours.
         public void OnClick(object sender, RoutedEventArgs e)
         {
-
-            button.OnClick(sender, e);
+            _ = sender;
+            //button.OnClick(sender, e);
 
         }
 
