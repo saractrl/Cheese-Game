@@ -18,27 +18,28 @@ namespace Cheese_Game
 
 
         // Changes the player color
-        //public void OnClick(object sender, RoutedEventArgs e)
-        //{
-        //    Button b = (Button)sender;
+        public void OnClick(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
 
 
 
-        //    if (this.turn)
-        //    {
+            if (this.turn)
+            {
 
-        //        b.Background = new SolidColorBrush(Color.FromRgb(0xC3, 0x00, 0xFF));
+                b.Background = new SolidColorBrush(Color.FromRgb(0xC3, 0x00, 0xFF));
 
-        //    }
-        //    else
-        //    {
-        //        b.Background = new SolidColorBrush(Color.FromRgb(0xE7, 0xFF, 0x08));
-        //    }
+            }
+            else
+            {
+                b.Background = new SolidColorBrush(Color.FromRgb(0xE7, 0xFF, 0x08));
+            }
 
-        //    b.IsEnabled = false;
-        //    this.turn = !this.turn;
+            b.IsEnabled = false;
+            this.turn = !this.turn;
 
 
+<<<<<<< HEAD
         // Sets turn back to false, so the color changes again.
 
         //public void BoxDetect()
@@ -46,6 +47,15 @@ namespace Cheese_Game
 
 
         //}
+=======
+            // Sets turn back to false, so the color changes again.
+
+            //public void BoxDetect()
+            //{ 
+
+
+          //}
+>>>>>>> vale
 
 
 
@@ -56,8 +66,13 @@ namespace Cheese_Game
         //{
 
 
+<<<<<<< HEAD
         //}
         //    }
         //}
+=======
+            //}
+        }
+>>>>>>> vale
     }
 }
