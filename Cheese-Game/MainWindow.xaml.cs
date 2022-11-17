@@ -30,7 +30,7 @@ namespace Cheese_Game
         // Connected to lines
         public Lines button = new();
         public Lines newgame = new();
-
+        private bool turn = true;
         List<List<Element>> elements = new List<List<Element>>();
       
 
@@ -124,6 +124,23 @@ namespace Cheese_Game
         {
             //_ = sender;
             //button.OnClick(sender, e);
+            Button b = (Button)sender;
+
+           
+
+            if (this.turn)
+            {
+
+                b.Background = new SolidColorBrush(Color.FromRgb(0xC3, 0x00, 0xFF));
+
+            }
+            else
+            {
+                b.Background = new SolidColorBrush(Color.FromRgb(0xE7, 0xFF, 0x08));
+            }
+
+            b.IsEnabled = false;
+            this.turn = !this.turn;
 
         }
 
