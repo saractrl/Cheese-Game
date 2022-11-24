@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -50,7 +51,8 @@ namespace Cheese_Game
 
                     element.Bottom = new Site();
 
-                    if (indexRow == 0)                    {
+                    if (indexRow == 0)
+                    {
                         element.Top = new Site();
                     }
                     else
@@ -68,6 +70,7 @@ namespace Cheese_Game
                         element.Left = listElement[indexColumn - 1].Right;
                     }
                 }
+                DataContext = elements;
             }
 
 
@@ -126,7 +129,7 @@ namespace Cheese_Game
             //button.OnClick(sender, e);
             Button b = (Button)sender;
 
-           
+
 
             if (this.turn)
             {
@@ -142,7 +145,14 @@ namespace Cheese_Game
             b.IsEnabled = false;
             this.turn = !this.turn;
 
-
+            foreach (Element elm in elements)
+            {
+                if (elm.Left.Color == elm.Right.Color && elm.Left.Color == elm.Top.Color && elm.Left.Color == elm.Bottom.Color &&
+                    elm.Left.Color != Brushes.Gray && elm.Right.Color != Brushes.Gray && elm.Top.Color != Brushes.Gray && elm.Bottom.Color != Brushes.Gray)
+                {
+                    elm.Color = elm.Left.Color;
+                }
+            }
         }
 
         // By clicking the button "HELP" a website will pop up, that explains how the game works.
@@ -152,10 +162,10 @@ namespace Cheese_Game
             System.Diagnostics.Process.Start("explorer.exe", webpageUrl);
         }
 
-       private void OnNewGame(object sender, RoutedEventArgs e)
-       {
-          
-       }
+        private void OnNewGame(object sender, RoutedEventArgs e)
+        {
+
+        }
         public class Element : INotifyPropertyChanged
         {
             public Site Left { get; set; }
