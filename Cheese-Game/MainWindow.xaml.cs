@@ -145,13 +145,9 @@ namespace Cheese_Game
             b.IsEnabled = false;
             this.turn = !this.turn;
 
-            foreach (Element elm in elements)
+            foreach (List<Element> listElement in elements)
             {
-                if (elm.Left.Color == elm.Right.Color && elm.Left.Color == elm.Top.Color && elm.Left.Color == elm.Bottom.Color &&
-                    elm.Left.Color != Brushes.Gray && elm.Right.Color != Brushes.Gray && elm.Top.Color != Brushes.Gray && elm.Bottom.Color != Brushes.Gray)
-                {
-                    elm.Color = elm.Left.Color;
-                }
+                
             }
         }
 
