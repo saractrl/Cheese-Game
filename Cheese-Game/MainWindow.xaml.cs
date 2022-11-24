@@ -50,8 +50,7 @@ namespace Cheese_Game
 
                     element.Bottom = new Site();
 
-                    if (indexRow == 0)
-                    {
+                    if (indexRow == 0)                    {
                         element.Top = new Site();
                     }
                     else
