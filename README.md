@@ -1,10 +1,10 @@
 # Cheese-Game
 
 ## Table of contents
-* General info (#general-info)
-* Goals (#goals)
-* Technologies (#technologies)
-* Setup (#setup)
+* General info 
+* Goals 
+* Technologies 
+* Setup 
 
 ## General info
 This project is called "Cheese Game", this game is also more widely known as "Dots and Boxes".
