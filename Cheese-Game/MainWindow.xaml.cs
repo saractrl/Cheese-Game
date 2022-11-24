@@ -103,6 +103,13 @@ namespace Cheese_Game
         // Method "OnClick" that changes the colours of the buttons.
         public void OnClick(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
+=======
+
+            //_ = sender;
+            //button.OnClick(sender, e);
+            Button b = (Button)sender;
+>>>>>>> 233395718a5e25246b18f8510580f1d9874eae03
 
 
             Button b = (Button)sender;
@@ -125,6 +132,7 @@ namespace Cheese_Game
             b.IsEnabled = false;
             this.turn = !this.turn;
 
+<<<<<<< HEAD
             int i = 0;
 
 
@@ -523,6 +531,8 @@ namespace Cheese_Game
                 GetWinner();
             }
 
+=======
+>>>>>>> 233395718a5e25246b18f8510580f1d9874eae03
 
         }
 
