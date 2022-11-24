@@ -1,12 +1,12 @@
 # Cheese-Game
 
 ## Table of contents
-* [ General info ] (#General Info) 
+* General Info 
 * Goals 
 * Technologies 
 * Setup 
 
-## <a name="General Info"></a>
+## General Info
 This project is called "Cheese Game", this game is also more widely known as "Dots and Boxes".
 The game is a two-player game and the goal is to 'create' as many boxes as possible.
 You start by 'drawing' a line, here by clicking a button. Then the next player follows.
