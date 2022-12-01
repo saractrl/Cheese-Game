@@ -39,6 +39,8 @@ namespace Cheese_Game
         int player2;
 
 
+
+
         public MainWindow()
         {
             InitializeComponent();
@@ -103,11 +105,12 @@ namespace Cheese_Game
         }
 
 
-        // Method "OnClick" that changes the colours of the buttons.
+        // Method "OnClick" 
         public void OnClick(object sender, RoutedEventArgs e)
         {
 
 
+            // This part of the code changes the color of the buttons interchangeably 
 
             Button b = (Button)sender;
 
@@ -133,7 +136,7 @@ namespace Cheese_Game
 
 
 
-            // BlueViolet
+            // BlueViolet == Player 01
 
             // BOX 01
 
@@ -152,7 +155,6 @@ namespace Cheese_Game
                 Player01.Content = i;
 
             }
-
 
 
             // BOX 03
@@ -325,18 +327,24 @@ namespace Cheese_Game
                 i = i + 1;
                 Player01.Content = i;
             }
-            else
-            {
-                player1 = i;
-                GetWinner();
-            }
+            //if (L1_1.IsEnabled == false && L1_2.IsEnabled == false && L1_3.IsEnabled == false && L1_4.IsEnabled == false && L1_5.IsEnabled == false && R1_1.IsEnabled == false && R1_2.IsEnabled == false && R1_3.IsEnabled == false && R1_4.IsEnabled == false && R1_5.IsEnabled == false && R2_1.IsEnabled == false && R2_2.IsEnabled == false && R2_3.IsEnabled == false && R2_4.IsEnabled == false && R2_5.IsEnabled == false
+            //    && R3_1.IsEnabled == false && R3_2.IsEnabled == false && R3_3.IsEnabled == false && R3_4.IsEnabled == false && R3_5.IsEnabled == false && R4_1.IsEnabled == false && R4_2.IsEnabled == false && R4_3.IsEnabled == false && R4_4.IsEnabled == false && R4_5.IsEnabled == false && R5_1.IsEnabled == false && R5_2.IsEnabled == false && R5_3.IsEnabled == false && R5_4.IsEnabled == false && R5_5.IsEnabled == false
+            //    && T1_1.IsEnabled == false && T1_2.IsEnabled == false && T1_3.IsEnabled == false && T1_4.IsEnabled == false && T1_5.IsEnabled == false && B1_1.IsEnabled == false && B1_2.IsEnabled == false && B1_3.IsEnabled == false && B1_4.IsEnabled == false && B1_5.IsEnabled == false && B2_1.IsEnabled == false && B2_2.IsEnabled == false && B2_3.IsEnabled == false && B2_4.IsEnabled == false && B2_5.IsEnabled == false
+            //    && B3_1.IsEnabled == false && B3_2.IsEnabled == false && B3_3.IsEnabled == false && B3_4.IsEnabled == false && B3_5.IsEnabled == false && B4_1.IsEnabled == false && B4_2.IsEnabled == false && B4_3.IsEnabled == false && B4_4.IsEnabled == false && B4_5.IsEnabled == false && B5_1.IsEnabled == false && B5_2.IsEnabled == false && B5_3.IsEnabled == false && B5_4.IsEnabled == false && B5_5.IsEnabled == false
+            //    )
+            //{
+            //    player1 = i;
+            //    GetWinner();
+            //}
 
 
-            // Yellow
+            // Yellow Lines == Player 02
 
-            int y = 0;
+
 
             // BOX 01
+
+            int y = 0;
 
             if (T1_1.Background == Brushes.Yellow && B1_1.Background == Brushes.Yellow && L1_1.Background == Brushes.Yellow && R1_1.Background == Brushes.Yellow)
             {
@@ -525,32 +533,43 @@ namespace Cheese_Game
                 y = y + 1;
                 Player02.Content = y;
             }
-            else
+
+            if (L1_1.IsEnabled == false && L1_2.IsEnabled == false && L1_3.IsEnabled == false && L1_4.IsEnabled == false && L1_5.IsEnabled == false && R1_1.IsEnabled == false && R1_2.IsEnabled == false && R1_3.IsEnabled == false && R1_4.IsEnabled == false && R1_5.IsEnabled == false && R2_1.IsEnabled == false && R2_2.IsEnabled == false && R2_3.IsEnabled == false && R2_4.IsEnabled == false && R2_5.IsEnabled == false
+                && R3_1.IsEnabled == false && R3_2.IsEnabled == false && R3_3.IsEnabled == false && R3_4.IsEnabled == false && R3_5.IsEnabled == false && R4_1.IsEnabled == false && R4_2.IsEnabled == false && R4_3.IsEnabled == false && R4_4.IsEnabled == false && R4_5.IsEnabled == false && R5_1.IsEnabled == false && R5_2.IsEnabled == false && R5_3.IsEnabled == false && R5_4.IsEnabled == false && R5_5.IsEnabled == false
+                && T1_1.IsEnabled == false && T1_2.IsEnabled == false && T1_3.IsEnabled == false && T1_4.IsEnabled == false && T1_5.IsEnabled == false && B1_1.IsEnabled == false && B1_2.IsEnabled == false && B1_3.IsEnabled == false && B1_4.IsEnabled == false && B1_5.IsEnabled == false && B2_1.IsEnabled == false && B2_2.IsEnabled == false && B2_3.IsEnabled == false && B2_4.IsEnabled == false && B2_5.IsEnabled == false
+                && B3_1.IsEnabled == false && B3_2.IsEnabled == false && B3_3.IsEnabled == false && B3_4.IsEnabled == false && B3_5.IsEnabled == false && B4_1.IsEnabled == false && B4_2.IsEnabled == false && B4_3.IsEnabled == false && B4_4.IsEnabled == false && B4_5.IsEnabled == false && B5_1.IsEnabled == false && B5_2.IsEnabled == false && B5_3.IsEnabled == false && B5_4.IsEnabled == false && B5_5.IsEnabled == false
+                )
             {
+                player1 = i;
                 player2 = y;
                 GetWinner();
             }
 
 
+
         }
 
-
+        // Determines wether player 1 oder player 2 has won
         public void GetWinner()
         {
 
-            bool winner = false;
+
 
             if (player1 > player2)
             {
+
+
                 MessageBox.Show("PLAYER 1 HAS WON, CONGRATULATIONS!");
             }
             else if (player2 > player1)
             {
+
                 MessageBox.Show("PLAYER 2 HAS WON, CONGRATULATIONS!");
             }
-            else
+
+            else if (player1 == player2)
             {
-                MessageBox.Show("IT'S A DRAW... TRY AGAIN.");
+                MessageBox.Show("NO ONE WON... TRY AGAIN? CLICK NEW GAME");
             }
 
         }
@@ -571,7 +590,192 @@ namespace Cheese_Game
         private void OnNewGame(object sender, RoutedEventArgs e)
         {
 
+            L1_1.IsEnabled = true;
+            L1_1.Background = Brushes.Gray;
+
+            L1_2.IsEnabled = true;
+            L1_2.Background = Brushes.Gray;
+
+            L1_3.IsEnabled = true;
+            L1_3.Background = Brushes.Gray;
+
+            L1_4.IsEnabled = true;
+            L1_4.Background = Brushes.Gray;
+
+            L1_5.IsEnabled = true;
+            L1_5.Background = Brushes.Gray;
+
+            R1_1.IsEnabled = true;
+            R1_1.Background = Brushes.Gray;
+
+            R1_2.IsEnabled = true;
+            R1_2.Background = Brushes.Gray;
+
+            R1_3.IsEnabled = true;
+            R1_3.Background = Brushes.Gray;
+
+            R1_4.IsEnabled = true;
+            R1_4.Background = Brushes.Gray;
+
+            R1_5.IsEnabled = true;
+            R1_5.Background = Brushes.Gray;
+
+            R2_1.IsEnabled = true;
+            R2_1.Background = Brushes.Gray;
+
+            R2_2.IsEnabled = true;
+            R2_2.Background = Brushes.Gray;
+
+            R2_3.IsEnabled = true;
+            R2_3.Background = Brushes.Gray;
+
+            R2_4.IsEnabled = true;
+            R2_4.Background = Brushes.Gray;
+
+            R2_5.IsEnabled = true;
+            R2_5.Background = Brushes.Gray;
+
+            R3_1.IsEnabled = true;
+            R3_1.Background = Brushes.Gray;
+
+            R3_2.IsEnabled = true;
+            R3_2.Background = Brushes.Gray;
+
+            R3_3.IsEnabled = true;
+            R3_3.Background = Brushes.Gray;
+
+            R3_4.IsEnabled = true;
+            R3_4.Background = Brushes.Gray;
+
+            R3_5.IsEnabled = true;
+            R3_5.Background = Brushes.Gray;
+
+            R4_1.IsEnabled = true;
+            R4_1.Background = Brushes.Gray;
+
+            R4_2.IsEnabled = true;
+            R4_2.Background = Brushes.Gray;
+
+            R4_3.IsEnabled = true;
+            R4_3.Background = Brushes.Gray;
+
+            R4_4.IsEnabled = true;
+            R4_4.Background = Brushes.Gray;
+
+            R4_5.IsEnabled = true;
+            R4_5.Background = Brushes.Gray;
+
+            R5_1.IsEnabled = true;
+            R5_1.Background = Brushes.Gray;
+
+            R5_2.IsEnabled = true;
+            R5_2.Background = Brushes.Gray;
+
+            R5_3.IsEnabled = true;
+            R5_3.Background = Brushes.Gray;
+
+            R5_4.IsEnabled = true;
+            R5_4.Background = Brushes.Gray;
+
+            R5_5.IsEnabled = true;
+            R5_5.Background = Brushes.Gray;
+
+            T1_1.IsEnabled = true;
+            T1_1.Background = Brushes.Gray;
+
+            T1_2.IsEnabled = true;
+            T1_2.Background = Brushes.Gray;
+
+            T1_3.IsEnabled = true;
+            T1_3.Background = Brushes.Gray;
+
+            T1_4.IsEnabled = true;
+            T1_4.Background = Brushes.Gray;
+
+            T1_5.IsEnabled = true;
+            T1_5.Background = Brushes.Gray;
+
+            B1_1.IsEnabled = true;
+            B1_1.Background = Brushes.Gray;
+
+            B1_2.IsEnabled = true;
+            B1_2.Background = Brushes.Gray;
+
+            B1_3.IsEnabled = true;
+            B1_3.Background = Brushes.Gray;
+
+            B1_4.IsEnabled = true;
+            B1_4.Background = Brushes.Gray;
+
+            B1_5.IsEnabled = true;
+            B1_5.Background = Brushes.Gray;
+
+            B2_1.IsEnabled = true;
+            B2_1.Background = Brushes.Gray;
+
+            B2_2.IsEnabled = true;
+            B2_2.Background = Brushes.Gray;
+
+            B2_3.IsEnabled = true;
+            B2_3.Background = Brushes.Gray;
+
+            B2_4.IsEnabled = true;
+            B2_4.Background = Brushes.Gray;
+
+            B2_5.IsEnabled = true;
+            B2_5.Background = Brushes.Gray;
+
+            B3_1.IsEnabled = true;
+            B3_1.Background = Brushes.Gray;
+
+            B3_2.IsEnabled = true;
+            B3_2.Background = Brushes.Gray;
+
+            B3_3.IsEnabled = true;
+            B3_3.Background = Brushes.Gray;
+
+            B3_4.IsEnabled = true;
+            B3_4.Background = Brushes.Gray;
+
+            B3_5.IsEnabled = true;
+            B3_5.Background = Brushes.Gray;
+
+            B4_1.IsEnabled = true;
+            B4_1.Background = Brushes.Gray;
+
+            B4_2.IsEnabled = true;
+            B4_2.Background = Brushes.Gray;
+
+            B4_3.IsEnabled = true;
+            B4_3.Background = Brushes.Gray;
+
+            B4_4.IsEnabled = true;
+            B4_4.Background = Brushes.Gray;
+
+            B4_5.IsEnabled = true;
+            B4_5.Background = Brushes.Gray;
+
+            B5_1.IsEnabled = true;
+            B5_1.Background = Brushes.Gray;
+
+            B5_2.IsEnabled = true;
+            B5_2.Background = Brushes.Gray;
+
+            B5_3.IsEnabled = true;
+            B5_3.Background = Brushes.Gray;
+
+            B5_4.IsEnabled = true;
+            B5_4.Background = Brushes.Gray;
+
+            B5_5.IsEnabled = true;
+            B5_5.Background = Brushes.Gray;
+
+            player1 = 0;
+            player2 = 0;
+            Player01.Content = player1;
+            Player02.Content = player2;
         }
+        // End of method "OnNewGame"
         public class Element : INotifyPropertyChanged
         {
             public Site Left { get; set; }
