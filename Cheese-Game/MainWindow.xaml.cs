@@ -103,11 +103,12 @@ namespace Cheese_Game
         }
 
 
-        // Method "OnClick" that changes the colours of the buttons.
+        // Method "OnClick" 
         public void OnClick(object sender, RoutedEventArgs e)
         {
 
 
+            // This part of the code changes the color of the buttons interchangeably 
 
             Button b = (Button)sender;
 
@@ -133,7 +134,7 @@ namespace Cheese_Game
 
 
 
-            // BlueViolet
+            // BlueViolet == Player 01
 
             // BOX 01
 
@@ -152,7 +153,6 @@ namespace Cheese_Game
                 Player01.Content = i;
 
             }
-
 
 
             // BOX 03
@@ -325,14 +325,18 @@ namespace Cheese_Game
                 i = i + 1;
                 Player01.Content = i;
             }
-            else
+            if (L1_1.IsEnabled == false && L1_2.IsEnabled == false && L1_3.IsEnabled == false && L1_4.IsEnabled == false && L1_5.IsEnabled == false && R1_1.IsEnabled == false && R1_2.IsEnabled == false && R1_3.IsEnabled == false && R1_4.IsEnabled == false && R1_5.IsEnabled == false && R2_1.IsEnabled == false && R2_2.IsEnabled == false && R2_3.IsEnabled == false && R2_4.IsEnabled == false && R2_5.IsEnabled == false
+                && R3_1.IsEnabled == false && R3_2.IsEnabled == false && R3_3.IsEnabled == false && R3_4.IsEnabled == false && R3_5.IsEnabled == false && R4_1.IsEnabled == false && R4_2.IsEnabled == false && R4_3.IsEnabled == false && R4_4.IsEnabled == false && R4_5.IsEnabled == false && R5_1.IsEnabled == false && R5_2.IsEnabled == false && R5_3.IsEnabled == false && R5_4.IsEnabled == false && R5_5.IsEnabled == false
+                && T1_1.IsEnabled == false && T1_2.IsEnabled == false && T1_3.IsEnabled == false && T1_4.IsEnabled == false && T1_5.IsEnabled == false && B1_1.IsEnabled == false && B1_2.IsEnabled == false && B1_3.IsEnabled == false && B1_4.IsEnabled == false && B1_5.IsEnabled == false && B2_1.IsEnabled == false && B2_2.IsEnabled == false && B2_3.IsEnabled == false && B2_4.IsEnabled == false && B2_5.IsEnabled == false
+                && B3_1.IsEnabled == false && B3_2.IsEnabled == false && B3_3.IsEnabled == false && B3_4.IsEnabled == false && B3_5.IsEnabled == false && B4_1.IsEnabled == false && B4_2.IsEnabled == false && B4_3.IsEnabled == false && B4_4.IsEnabled == false && B4_5.IsEnabled == false && B5_1.IsEnabled == false && B5_2.IsEnabled == false && B5_3.IsEnabled == false && B5_4.IsEnabled == false && B5_5.IsEnabled == false
+                )
             {
                 player1 = i;
                 GetWinner();
             }
 
 
-            // Yellow
+            // Yellow Lines == Player 02
 
             int y = 0;
 
@@ -525,34 +529,45 @@ namespace Cheese_Game
                 y = y + 1;
                 Player02.Content = y;
             }
-            else
+
+            if (L1_1.IsEnabled == false && L1_2.IsEnabled == false && L1_3.IsEnabled == false && L1_4.IsEnabled == false && L1_5.IsEnabled == false && R1_1.IsEnabled == false && R1_2.IsEnabled == false && R1_3.IsEnabled == false && R1_4.IsEnabled == false && R1_5.IsEnabled == false && R2_1.IsEnabled ==  false && R2_2.IsEnabled == false && R2_3.IsEnabled == false && R2_4.IsEnabled == false && R2_5.IsEnabled == false 
+                && R3_1.IsEnabled == false && R3_2.IsEnabled == false && R3_3.IsEnabled == false && R3_4.IsEnabled == false && R3_5.IsEnabled == false && R4_1.IsEnabled == false && R4_2.IsEnabled == false && R4_3.IsEnabled == false && R4_4.IsEnabled == false && R4_5.IsEnabled == false && R5_1.IsEnabled == false && R5_2.IsEnabled == false && R5_3.IsEnabled == false && R5_4.IsEnabled == false && R5_5.IsEnabled == false 
+                &&  T1_1.IsEnabled == false && T1_2.IsEnabled == false && T1_3.IsEnabled == false && T1_4.IsEnabled == false && T1_5.IsEnabled == false && B1_1.IsEnabled == false && B1_2.IsEnabled == false && B1_3.IsEnabled == false && B1_4.IsEnabled == false && B1_5.IsEnabled == false && B2_1.IsEnabled == false && B2_2.IsEnabled == false && B2_3.IsEnabled == false && B2_4.IsEnabled == false && B2_5.IsEnabled == false
+                && B3_1.IsEnabled == false && B3_2.IsEnabled == false && B3_3.IsEnabled == false && B3_4.IsEnabled == false && B3_5.IsEnabled == false && B4_1.IsEnabled == false && B4_2.IsEnabled == false && B4_3.IsEnabled == false && B4_4.IsEnabled == false && B4_5.IsEnabled == false && B5_1.IsEnabled == false && B5_2.IsEnabled == false && B5_3.IsEnabled == false && B5_4.IsEnabled == false && B5_5.IsEnabled == false 
+                )
             {
+                
                 player2 = y;
                 GetWinner();
             }
 
 
+            
         }
 
-
+        // Determines wether player 1 oder player 2 has won
         public void GetWinner()
         {
 
-            bool winner = false;
+         
 
             if(player1 > player2)
             {
+                
+             
                 MessageBox.Show("PLAYER 1 HAS WON, CONGRATULATIONS!");
             }
             else if(player2 > player1)
             {
+               
                 MessageBox.Show("PLAYER 2 HAS WON, CONGRATULATIONS!");
             }
+
             else
             {
-                MessageBox.Show("IT'S A DRAW... TRY AGAIN.");
+                MessageBox.Show("NO ONE WON... TRY AGAIN? CLICK NEW GAME");
             }
-
+         
         }
 
 
@@ -572,6 +587,7 @@ namespace Cheese_Game
        {
           
        }
+        // End of method "OnNewGame"
         public class Element : INotifyPropertyChanged
         {
             public Site Left { get; set; }
