@@ -35,6 +35,9 @@ namespace Cheese_Game
         // List in List
         List<List<Element>> elements = new List<List<Element>>();
 
+        int player1;
+        int player2;
+
 
         public MainWindow()
         {
@@ -103,13 +106,7 @@ namespace Cheese_Game
         // Method "OnClick" that changes the colours of the buttons.
         public void OnClick(object sender, RoutedEventArgs e)
         {
-<<<<<<< HEAD
-=======
 
-            //_ = sender;
-            //button.OnClick(sender, e);
-            Button b = (Button)sender;
->>>>>>> 233395718a5e25246b18f8510580f1d9874eae03
 
 
             Button b = (Button)sender;
@@ -132,14 +129,15 @@ namespace Cheese_Game
             b.IsEnabled = false;
             this.turn = !this.turn;
 
-<<<<<<< HEAD
-            int i = 0;
+
+
 
 
             // BlueViolet
 
             // BOX 01
 
+            int i = 0;
             if (T1_1.Background == Brushes.BlueViolet && B1_1.Background == Brushes.BlueViolet && L1_1.Background == Brushes.BlueViolet && R1_1.Background == Brushes.BlueViolet)
             {
                 i = i + 1;
@@ -329,6 +327,7 @@ namespace Cheese_Game
             }
             else
             {
+                player1 = i;
                 GetWinner();
             }
 
@@ -528,17 +527,31 @@ namespace Cheese_Game
             }
             else
             {
+                player2 = y;
                 GetWinner();
             }
 
-=======
->>>>>>> 233395718a5e25246b18f8510580f1d9874eae03
 
         }
 
 
         public void GetWinner()
         {
+
+            bool winner = false;
+
+            if(player1 > player2)
+            {
+                MessageBox.Show("PLAYER 1 HAS WON, CONGRATULATIONS!");
+            }
+            else if(player2 > player1)
+            {
+                MessageBox.Show("PLAYER 2 HAS WON, CONGRATULATIONS!");
+            }
+            else
+            {
+                MessageBox.Show("IT'S A DRAW... TRY AGAIN.");
+            }
 
         }
 

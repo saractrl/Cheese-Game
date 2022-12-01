@@ -59,7 +59,6 @@
         <!-- Buttons -->
 
 
-<<<<<<< HEAD
         <Button x:Name="L1_1" HorizontalAlignment="Center" Content=" " Grid.Row="2" VerticalAlignment="Center" Background="{Binding [0][0].Left.Color}" Height="38" Width="4" Grid.ColumnSpan="2"  Click="OnClick" Grid.Column="1" />
 
         <Button HorizontalAlignment="Center" Content="Button" Grid.Row="3" VerticalAlignment="Center" Background="{Binding [0][0].Left.Color}" Height="38" Width="4"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
@@ -71,15 +70,6 @@
         <Button x:Name="L1_3" HorizontalAlignment="Center" Content=" " Grid.Row="4" VerticalAlignment="Center" Background="{Binding [0][0].Left.Color}" Height="38" Width="4"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
         <Button x:Name="L1_4" HorizontalAlignment="Center" Content=" " Grid.Row="5" VerticalAlignment="Center" Background="{Binding [0][0].Left.Color}" Height="36" Width="4"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
         <Button x:Name="L1_5" HorizontalAlignment="Center" Content=" " Grid.Row="6" VerticalAlignment="Center" Background="{Binding [0][0].Left.Color}" Height="38" Width="4"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
-=======
-        <Button HorizontalAlignment="Center" Content=" " Grid.Row="2" VerticalAlignment="Center" Background="{Binding [0][0].Left.Color}" Height="38" Width="4" Grid.ColumnSpan="2"  Click="OnClick" Grid.Column="1" />
-
-        <Button HorizontalAlignment="Center" Content=" " Grid.Row="3" VerticalAlignment="Center" Background="{Binding [0][0].Left.Color}" Height="38" Width="4"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Button HorizontalAlignment="Center" Content=" " Grid.Row="4" VerticalAlignment="Center" Background="{Binding [0][0].Left.Color}" Height="38" Width="4"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Button HorizontalAlignment="Center" Content=" " Grid.Row="5" VerticalAlignment="Center" Background="{Binding [0][0].Left.Color}" Height="36" Width="4"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Button HorizontalAlignment="Center" Content=" " Grid.Row="6" VerticalAlignment="Center" Background="{Binding [0][0].Left.Color}" Height="38" Width="4"  Click="OnClick" Grid.Column="1" Grid.ColumnSpan="2"/>
-
->>>>>>> 233395718a5e25246b18f8510580f1d9874eae03
 
 
 
@@ -147,26 +137,11 @@
 
         <!-- Buttons -->
 
-<<<<<<< HEAD
-        <Button HorizontalAlignment="Center" Content="Button" Grid.Row="2" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0][0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0][0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
-
         <Button x:Name="R1_4" HorizontalAlignment="Center" Content=" " Grid.Row="2" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0][0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
         <Button x:Name="R2_4" HorizontalAlignment="Center" Content=" " Grid.Row="3" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0][0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
         <Button x:Name="R3_4" HorizontalAlignment="Center" Content=" " Grid.Row="4" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0][0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
         <Button x:Name="R4_4" HorizontalAlignment="Center" Content=" " Grid.Row="5" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0][0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
         <Button x:Name="R5_4" HorizontalAlignment="Center" Content=" " Grid.Row="6" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0][0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
-=======
-        <Button HorizontalAlignment="Center" Content=" " Grid.Row="2" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0][0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Content=" " Grid.Row="3" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0][0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Content=" " Grid.Row="4" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0][0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Content=" " Grid.Row="5" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0][0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
-        <Button HorizontalAlignment="Center" Content=" " Grid.Row="6" VerticalAlignment="Center" Click="OnClick" Background="{Binding [0][0].Right.Color}" Height="38" Width="4"  Grid.Column="5" Grid.ColumnSpan="2" />
->>>>>>> 233395718a5e25246b18f8510580f1d9874eae03
-
 
         <!--Column 06 -->
         <Ellipse HorizontalAlignment="Center" Height="10"  VerticalAlignment="Center" Width="10" Fill="White"  Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="2"/>
@@ -240,11 +215,11 @@
 
         <!-- Labels -->
         <Label Content="PLAYER 1" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Margin="41,15,0,0" FontSize="20" FontWeight="Bold" FontFamily="Consolas" Foreground="#FFC300FF" Width="100"/>
-        <Label Content="BOXES: " HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Consolas" FontWeight="Bold" Grid.ColumnSpan="3" Grid.RowSpan="2" Foreground="#FFC300FF" FontSize="15" Margin="41,40,0,0"/>
-        <Label x:Name="Player01" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Consolas" FontWeight="Bold" Grid.RowSpan="2" Foreground="#FFC300FF" FontSize="15" Grid.Column="1" Grid.ColumnSpan="2" Width="20" Margin="46,0,0,0"/>
+        <Label Content="BOXES: " HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Consolas" FontWeight="Bold" Grid.ColumnSpan="2" Grid.RowSpan="2" Foreground="#FFC300FF" FontSize="15" Margin="42,0,0,0"/>
+        <Label x:Name="Player01" Content="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Consolas" FontWeight="Bold" Grid.RowSpan="2" Foreground="#FFC300FF" FontSize="15" Grid.Column="1" Grid.ColumnSpan="2" Width="20" Height="27"/>
         <Label Grid.Column="5" Content="PLAYER 2" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Margin="48,15,0,0" FontSize="20" FontWeight="Bold" FontFamily="Consolas" Foreground="#FFE7FF08" Width="100"/>
-        <Label Grid.Column="5" Content="BOXES: " HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Consolas" FontWeight="Bold" Grid.RowSpan="2" Foreground="#FFDDF21A" FontSize="15" Margin="55,40,0,0" Grid.ColumnSpan="3"/>
-        <Label x:Name="Player02" Grid.Column="7" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Consolas" FontWeight="Bold" Grid.RowSpan="2" Foreground="#FFDDF21A" FontSize="15" Margin="1,0,0,0"/>
+        <Label Grid.Column="5" Content="BOXES: " HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Consolas" FontWeight="Bold" Grid.RowSpan="2" Foreground="#FFDDF21A" FontSize="15" Grid.ColumnSpan="2" Margin="49,0,0,0"/>
+        <Label x:Name="Player02" Content="0" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Consolas" FontWeight="Bold" Grid.RowSpan="2" Foreground="#FFDDF21A" FontSize="15" Grid.ColumnSpan="2" Margin="50,0,0,0"/>
 
 
 
