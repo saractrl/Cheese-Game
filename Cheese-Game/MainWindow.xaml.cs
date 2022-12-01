@@ -767,6 +767,37 @@ namespace Cheese_Game
             B5_5.IsEnabled = true;
             B5_5.Background = Brushes.Gray;
 
+            Box1_1.Background = null;
+            Box1_2.Background = null;
+            Box1_3.Background = null;
+            Box1_4.Background = null;
+            Box1_5.Background = null;
+
+            Box2_1.Background = null;
+            Box2_2.Background = null;
+            Box2_3.Background = null;
+            Box2_4.Background = null;
+            Box2_5.Background = null;
+
+            Box3_1.Background = null;
+            Box3_2.Background = null;
+            Box3_3.Background = null;
+            Box3_4.Background = null;
+            Box3_5.Background = null;
+
+            Box4_1.Background = null;
+            Box4_2.Background = null;
+            Box4_3.Background = null;
+            Box4_4.Background = null;
+            Box4_5.Background = null;
+
+            Box5_1.Background = null;
+            Box5_2.Background = null;
+            Box5_3.Background = null;
+            Box5_4.Background = null;
+            Box5_5.Background = null;
+
+
             player1 = 0;
             player2 = 0;
             Player01.Content = player1;

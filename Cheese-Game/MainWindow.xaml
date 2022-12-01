@@ -164,7 +164,7 @@
 
 
         <!-- Buttons -->
-        <Button Content="NEW GAME" HorizontalAlignment="Left" Grid.Row="7" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="111" BorderBrush="White" Foreground="White" Height="28"  FontFamily="Consolas" FontWeight="Bold" FontSize="20" Background="Black" Margin="55,39,0,0" Grid.RowSpan="2" BorderThickness="2,2,2,2" Grid.Column="1"/>
+        <Button Content="NEW GAME" HorizontalAlignment="Left" Grid.Row="7" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="111" BorderBrush="White" Foreground="White" Height="28"  FontFamily="Consolas" FontWeight="Bold" FontSize="20" Background="Black" Margin="55,39,0,0" Grid.RowSpan="2" BorderThickness="2,2,2,2" Grid.Column="1" Click="OnNewGame"/>
         <Button Content="HELP" HorizontalAlignment="Center" Grid.Row="7" VerticalAlignment="Top" Width="55" BorderBrush="White" Foreground="White" Height="28"  FontFamily="Consolas" FontWeight="Bold" FontSize="20" Grid.Column="6" Background="Black" Margin="0,39,0,0" Grid.RowSpan="2" BorderThickness="2,2,2,2" Click="OnHelp"/>
 
         <!-- Horizontal buttons -->
