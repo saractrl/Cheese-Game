@@ -209,10 +209,6 @@
         <Button x:Name="B5_5" Grid.Column="6" Content="Button" HorizontalAlignment="Center" Height="4" Grid.Row="6" VerticalAlignment="Center" Width="38" Background="gray" Click="OnClick" Grid.RowSpan="2"/>
 
 
-        <!-- Row 07 -->
-
-
-
         <!-- Labels -->
         <Label Content="PLAYER 1" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Margin="41,15,0,0" FontSize="20" FontWeight="Bold" FontFamily="Consolas" Foreground="#FFC300FF" Width="100"/>
         <Label Content="BOXES: " HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Consolas" FontWeight="Bold" Grid.ColumnSpan="2" Grid.RowSpan="2" Foreground="#FFC300FF" FontSize="15" Margin="42,0,0,0"/>

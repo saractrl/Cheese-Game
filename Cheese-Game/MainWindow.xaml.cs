@@ -714,6 +714,9 @@ namespace Cheese_Game
             B5_5.IsEnabled = true;
             B5_5.Background = Brushes.Gray;
 
+      
+
+
             player1 = 0;
             player2 = 0;
             Player01.Content = player1;
