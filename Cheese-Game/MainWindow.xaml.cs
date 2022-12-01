@@ -28,9 +28,7 @@ namespace Cheese_Game
     /// </summary>
     public partial class MainWindow : Window
     {
-        // Connected to lines
-        //public Lines button = new();
-        //public Lines newgame = new();
+        
         private bool turn = true;
         // List in List
         List<List<Element>> elements = new List<List<Element>>();
@@ -38,8 +36,6 @@ namespace Cheese_Game
         int player1;
         int player2;
       
-
-
 
         public MainWindow()
         {
@@ -78,29 +74,7 @@ namespace Cheese_Game
                 }
             }
 
-
-
             DataContext = elements;
-
-            //foreach(List<Element> listElement in elements)
-            //{
-            //    foreach(Element element in listElement)
-            //    {
-            //        if (element. == )
-            //        {
-
-            //            Player01.Content = ;
-            //        }
-            //        else if (Left.Color == && Right.Color == && Top.Color == && Bottom.Color ==)
-            //        {
-            //            Player02.Content = i;
-            //        }
-            //    }
-               
-            //}
-
-            
-
 
         }
 
@@ -129,12 +103,8 @@ namespace Cheese_Game
                 b.Background = Brushes.Yellow;
             }
 
-            b.IsEnabled = false;
-            this.turn = !this.turn;
-
-
-
-
+            b.IsEnabled = false; // With this line of code, the button id no longer useable, which means once you've clicked it, it can no longer be used.
+            this.turn = !this.turn; // Changes the turn
 
             // BlueViolet == Player 01
 
@@ -156,7 +126,6 @@ namespace Cheese_Game
 
             }
 
-
             // BOX 03
 
             if (T1_3.Background == Brushes.BlueViolet && B1_3.Background == Brushes.BlueViolet && R1_3.Background == Brushes.BlueViolet && R1_2.Background == Brushes.BlueViolet)
@@ -164,7 +133,6 @@ namespace Cheese_Game
                 i = i + 1;
                 Player01.Content = i;
             }
-
 
             // BOX 04
             if (T1_4.Background == Brushes.BlueViolet && B1_4.Background == Brushes.BlueViolet && R1_3.Background == Brushes.BlueViolet && R1_4.Background == Brushes.BlueViolet)
@@ -268,7 +236,6 @@ namespace Cheese_Game
                 Player01.Content = i;
             }
 
-
             // BOX 18
             if (B3_3.Background == Brushes.BlueViolet && B4_3.Background == Brushes.BlueViolet && R4_2.Background == Brushes.BlueViolet && R4_3.Background == Brushes.BlueViolet)
             {
@@ -276,14 +243,12 @@ namespace Cheese_Game
                 Player01.Content = i;
             }
 
-
             // BOX 19
             if (B3_4.Background == Brushes.BlueViolet && B4_4.Background == Brushes.BlueViolet && R4_4.Background == Brushes.BlueViolet && R4_3.Background == Brushes.BlueViolet)
             {
                 i = i + 1;
                 Player01.Content = i;
             }
-
 
             // BOX 20
             if (B3_5.Background == Brushes.BlueViolet && B4_5.Background == Brushes.BlueViolet && R4_4.Background == Brushes.BlueViolet && R4_5.Background == Brushes.BlueViolet)
@@ -320,27 +285,14 @@ namespace Cheese_Game
                 Player01.Content = i;
             }
 
-
             // BOX 25
             if (B4_5.Background == Brushes.BlueViolet && B5_5.Background == Brushes.BlueViolet && R5_4.Background == Brushes.BlueViolet && R5_5.Background == Brushes.BlueViolet)
             {
                 i = i + 1;
                 Player01.Content = i;
             }
-            //if (L1_1.IsEnabled == false && L1_2.IsEnabled == false && L1_3.IsEnabled == false && L1_4.IsEnabled == false && L1_5.IsEnabled == false && R1_1.IsEnabled == false && R1_2.IsEnabled == false && R1_3.IsEnabled == false && R1_4.IsEnabled == false && R1_5.IsEnabled == false && R2_1.IsEnabled == false && R2_2.IsEnabled == false && R2_3.IsEnabled == false && R2_4.IsEnabled == false && R2_5.IsEnabled == false
-            //    && R3_1.IsEnabled == false && R3_2.IsEnabled == false && R3_3.IsEnabled == false && R3_4.IsEnabled == false && R3_5.IsEnabled == false && R4_1.IsEnabled == false && R4_2.IsEnabled == false && R4_3.IsEnabled == false && R4_4.IsEnabled == false && R4_5.IsEnabled == false && R5_1.IsEnabled == false && R5_2.IsEnabled == false && R5_3.IsEnabled == false && R5_4.IsEnabled == false && R5_5.IsEnabled == false
-            //    && T1_1.IsEnabled == false && T1_2.IsEnabled == false && T1_3.IsEnabled == false && T1_4.IsEnabled == false && T1_5.IsEnabled == false && B1_1.IsEnabled == false && B1_2.IsEnabled == false && B1_3.IsEnabled == false && B1_4.IsEnabled == false && B1_5.IsEnabled == false && B2_1.IsEnabled == false && B2_2.IsEnabled == false && B2_3.IsEnabled == false && B2_4.IsEnabled == false && B2_5.IsEnabled == false
-            //    && B3_1.IsEnabled == false && B3_2.IsEnabled == false && B3_3.IsEnabled == false && B3_4.IsEnabled == false && B3_5.IsEnabled == false && B4_1.IsEnabled == false && B4_2.IsEnabled == false && B4_3.IsEnabled == false && B4_4.IsEnabled == false && B4_5.IsEnabled == false && B5_1.IsEnabled == false && B5_2.IsEnabled == false && B5_3.IsEnabled == false && B5_4.IsEnabled == false && B5_5.IsEnabled == false
-            //    )
-            //{
-            //    player1 = i;
-            //    GetWinner();
-            //}
-
-
+        
             // Yellow Lines == Player 02
-
-
 
             // BOX 01
 
@@ -361,8 +313,6 @@ namespace Cheese_Game
 
             }
 
-
-
             // BOX 03
 
             if (T1_3.Background == Brushes.Yellow && B1_3.Background == Brushes.Yellow && R1_3.Background == Brushes.Yellow && R1_2.Background == Brushes.Yellow)
@@ -370,7 +320,6 @@ namespace Cheese_Game
                 y = y + 1;
                 Player02.Content = y;
             }
-
 
             // BOX 04
             if (T1_4.Background == Brushes.Yellow && B1_4.Background == Brushes.Yellow && R1_3.Background == Brushes.Yellow && R1_4.Background == Brushes.Yellow)
@@ -422,14 +371,12 @@ namespace Cheese_Game
                 Player02.Content = y;
             }
 
-
             // BOX 11
             if (B3_1.Background == Brushes.Yellow && B2_1.Background == Brushes.Yellow && L1_3.Background == Brushes.Yellow && R3_1.Background == Brushes.Yellow)
             {
                 y = y + 1;
                 Player02.Content = y;
             }
-
 
             // BOX 12
             if (B3_2.Background == Brushes.Yellow && B2_2.Background == Brushes.Yellow && R3_1.Background == Brushes.Yellow && R3_2.Background == Brushes.Yellow)
@@ -474,7 +421,6 @@ namespace Cheese_Game
                 Player02.Content = y;
             }
 
-
             // BOX 18
             if (B3_3.Background == Brushes.Yellow && B4_3.Background == Brushes.Yellow && R4_2.Background == Brushes.Yellow && R4_3.Background == Brushes.Yellow)
             {
@@ -489,7 +435,6 @@ namespace Cheese_Game
                 y = y + 1;
                 Player02.Content = y;
             }
-
 
             // BOX 20
             if (B3_5.Background == Brushes.Yellow && B4_5.Background == Brushes.Yellow && R4_4.Background == Brushes.Yellow && R4_5.Background == Brushes.Yellow)
@@ -552,24 +497,23 @@ namespace Cheese_Game
         // Determines wether player 1 oder player 2 has won
         public void GetWinner()
         {
-
-         
-
+            //If player1 is bigger than player2, player one has won
             if(player1 > player2)
             {
                 
              
                 MessageBox.Show("PLAYER 1 HAS WON, CONGRATULATIONS!");
             }
-            else if(player2 > player1)
+            //If player2 is bigger than player1, player two has won
+            else if (player2 > player1)
             {
                
                 MessageBox.Show("PLAYER 2 HAS WON, CONGRATULATIONS!");
             }
-
+            //Is the amount equal, they're tied and are asked to play a new round
             else if (player1 == player2)
             {
-                MessageBox.Show("NO ONE WON... TRY AGAIN? CLICK NEW GAME");
+                MessageBox.Show("IT'S A TIE... TRY AGAIN? CLICK 'NEW GAME'");
             }
          
         }
