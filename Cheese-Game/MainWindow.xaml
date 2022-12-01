@@ -211,7 +211,41 @@
 
         <!-- Row 07 -->
 
+        <!-- Boxes-->
+        <!--Row 01-->
+        <TextBlock x:Name="Box1_1" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box1_2" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box1_3" Grid.Column="4" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box1_4" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box1_5" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        
+        <!--Row 02-->
+        <TextBlock x:Name="Box2_1" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box2_2" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box2_3" Grid.Column="4" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box2_4" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box2_5" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        
+        <!--Row 03-->
+        <TextBlock x:Name="Box3_1" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box3_2" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box3_3" Grid.Column="4" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box3_4" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box3_5" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        
+        <!--Row 04-->
+        <TextBlock x:Name="Box4_1" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box4_2" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box4_3" Grid.Column="4" HorizontalAlignment="Center" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box4_4" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box4_5" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
 
+        <!--Row05-->
+        <TextBlock x:Name="Box5_1" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box5_2" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box5_3" Grid.Column="4" HorizontalAlignment="Center" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box5_4" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
+        <TextBlock x:Name="Box5_5" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Center" Width="44" Height="44"/>
 
         <!-- Labels -->
         <Label Content="PLAYER 1" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Margin="41,15,0,0" FontSize="20" FontWeight="Bold" FontFamily="Consolas" Foreground="#FFC300FF" Width="100"/>

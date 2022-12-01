@@ -143,75 +143,75 @@ namespace Cheese_Game
             int i = 0;
             if (T1_1.Background == Brushes.BlueViolet && B1_1.Background == Brushes.BlueViolet && L1_1.Background == Brushes.BlueViolet && R1_1.Background == Brushes.BlueViolet)
             {
+                Box1_1.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
             // BOX 02
 
             if (T1_2.Background == Brushes.BlueViolet && B1_2.Background == Brushes.BlueViolet && R1_1.Background == Brushes.BlueViolet && R1_2.Background == Brushes.BlueViolet)
             {
+                Box1_2.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
 
             }
-
-
             // BOX 03
 
             if (T1_3.Background == Brushes.BlueViolet && B1_3.Background == Brushes.BlueViolet && R1_3.Background == Brushes.BlueViolet && R1_2.Background == Brushes.BlueViolet)
             {
+                Box1_3.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
-
             // BOX 04
             if (T1_4.Background == Brushes.BlueViolet && B1_4.Background == Brushes.BlueViolet && R1_3.Background == Brushes.BlueViolet && R1_4.Background == Brushes.BlueViolet)
             {
+                Box1_4.Background = Brushes.BlueViolet;
+                i = i + 1;
+                Player01.Content = i;
+            }
+            // BOX 05
+            if (T1_5.Background == Brushes.BlueViolet && B1_5.Background == Brushes.BlueViolet && R1_5.Background == Brushes.BlueViolet && R1_4.Background == Brushes.BlueViolet)
+            {
+                Box1_5.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
 
-            // BOX 05
-            if (T1_5.Background == Brushes.BlueViolet && B1_5.Background == Brushes.BlueViolet && R1_5.Background == Brushes.BlueViolet && R1_4.Background == Brushes.BlueViolet)
-            {
-                i = i + 1;
-                Player01.Content = i;
-            }
 
             // BOX 06
             if (B1_1.Background == Brushes.BlueViolet && B2_1.Background == Brushes.BlueViolet && L1_2.Background == Brushes.BlueViolet && R2_1.Background == Brushes.BlueViolet)
             {
+                Box2_1.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
             // BOX 07 
             if (B1_2.Background == Brushes.BlueViolet && B2_2.Background == Brushes.BlueViolet && R2_2.Background == Brushes.BlueViolet && R2_1.Background == Brushes.BlueViolet)
             {
+                Box2_2.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
-
             // BOX 08
             if (B1_3.Background == Brushes.BlueViolet && B2_3.Background == Brushes.BlueViolet && R2_2.Background == Brushes.BlueViolet && R2_3.Background == Brushes.BlueViolet)
             {
+                Box2_3.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
             // BOX 09
             if (B1_4.Background == Brushes.BlueViolet && B2_4.Background == Brushes.BlueViolet && R2_4.Background == Brushes.BlueViolet && R2_3.Background == Brushes.BlueViolet)
             {
+                Box2_4.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
             // BOX 10
             if (B1_5.Background == Brushes.BlueViolet && B2_5.Background == Brushes.BlueViolet && R2_4.Background == Brushes.BlueViolet && R2_5.Background == Brushes.BlueViolet)
             {
+                Box2_5.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
@@ -220,110 +220,109 @@ namespace Cheese_Game
             // BOX 11
             if (B3_1.Background == Brushes.BlueViolet && B2_1.Background == Brushes.BlueViolet && L1_3.Background == Brushes.BlueViolet && R3_1.Background == Brushes.BlueViolet)
             {
+                Box3_1.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
-
             // BOX 12
             if (B3_2.Background == Brushes.BlueViolet && B2_2.Background == Brushes.BlueViolet && R3_1.Background == Brushes.BlueViolet && R3_2.Background == Brushes.BlueViolet)
             {
+                Box3_2.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
-
             // BOX 13
             if (B3_3.Background == Brushes.BlueViolet && B2_3.Background == Brushes.BlueViolet && R3_3.Background == Brushes.BlueViolet && R3_2.Background == Brushes.BlueViolet)
             {
+                Box3_3.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
             // BOX 14
             if (B3_4.Background == Brushes.BlueViolet && B2_4.Background == Brushes.BlueViolet && R3_3.Background == Brushes.BlueViolet && R3_4.Background == Brushes.BlueViolet)
             {
+                Box3_4.Background = Brushes.BlueViolet;
+                i = i + 1;
+                Player01.Content = i;
+            }
+            // BOX 15
+            if (B3_5.Background == Brushes.BlueViolet && B2_5.Background == Brushes.BlueViolet && R3_5.Background == Brushes.BlueViolet && R3_4.Background == Brushes.BlueViolet)
+            {
+                Box3_5.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
 
-            // BOX 15
-            if (B3_5.Background == Brushes.BlueViolet && B2_5.Background == Brushes.BlueViolet && R3_5.Background == Brushes.BlueViolet && R3_4.Background == Brushes.BlueViolet)
-            {
-                i = i + 1;
-                Player01.Content = i;
-            }
 
             // BOX 16
             if (B3_1.Background == Brushes.BlueViolet && B4_1.Background == Brushes.BlueViolet && L1_4.Background == Brushes.BlueViolet && R4_1.Background == Brushes.BlueViolet)
             {
+                Box4_1.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
             // BOX 17
             if (B3_2.Background == Brushes.BlueViolet && B4_2.Background == Brushes.BlueViolet && R4_2.Background == Brushes.BlueViolet && R4_1.Background == Brushes.BlueViolet)
             {
+                Box4_2.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
-
             // BOX 18
             if (B3_3.Background == Brushes.BlueViolet && B4_3.Background == Brushes.BlueViolet && R4_2.Background == Brushes.BlueViolet && R4_3.Background == Brushes.BlueViolet)
             {
+                Box4_3.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
-
             // BOX 19
             if (B3_4.Background == Brushes.BlueViolet && B4_4.Background == Brushes.BlueViolet && R4_4.Background == Brushes.BlueViolet && R4_3.Background == Brushes.BlueViolet)
             {
+                Box4_4.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
-
             // BOX 20
             if (B3_5.Background == Brushes.BlueViolet && B4_5.Background == Brushes.BlueViolet && R4_4.Background == Brushes.BlueViolet && R4_5.Background == Brushes.BlueViolet)
             {
+                Box4_5.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
+
 
             // BOX 21
             if (B4_1.Background == Brushes.BlueViolet && B5_1.Background == Brushes.BlueViolet && L1_5.Background == Brushes.BlueViolet && R5_1.Background == Brushes.BlueViolet)
             {
+                Box5_1.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
             // BOX 22
             if (B4_2.Background == Brushes.BlueViolet && B5_2.Background == Brushes.BlueViolet && R5_1.Background == Brushes.BlueViolet && R5_2.Background == Brushes.BlueViolet)
             {
+                Box5_2.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
             // BOX 23
             if (B4_3.Background == Brushes.BlueViolet && B5_3.Background == Brushes.BlueViolet && R5_2.Background == Brushes.BlueViolet && R5_3.Background == Brushes.BlueViolet)
             {
+                Box5_3.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
             // BOX 24
             if (B4_4.Background == Brushes.BlueViolet && B5_4.Background == Brushes.BlueViolet && R5_4.Background == Brushes.BlueViolet && R5_3.Background == Brushes.BlueViolet)
             {
+                Box5_4.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
-
-
             // BOX 25
             if (B4_5.Background == Brushes.BlueViolet && B5_5.Background == Brushes.BlueViolet && R5_4.Background == Brushes.BlueViolet && R5_5.Background == Brushes.BlueViolet)
             {
+                Box5_5.Background = Brushes.BlueViolet;
                 i = i + 1;
                 Player01.Content = i;
             }
@@ -348,76 +347,75 @@ namespace Cheese_Game
 
             if (T1_1.Background == Brushes.Yellow && B1_1.Background == Brushes.Yellow && L1_1.Background == Brushes.Yellow && R1_1.Background == Brushes.Yellow)
             {
+                Box1_1.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
             // BOX 02
 
             if (T1_2.Background == Brushes.Yellow && B1_2.Background == Brushes.Yellow && R1_1.Background == Brushes.Yellow && R1_2.Background == Brushes.Yellow)
             {
+                Box1_2.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
 
             }
-
-
-
             // BOX 03
 
             if (T1_3.Background == Brushes.Yellow && B1_3.Background == Brushes.Yellow && R1_3.Background == Brushes.Yellow && R1_2.Background == Brushes.Yellow)
             {
+                Box1_3.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
-
             // BOX 04
             if (T1_4.Background == Brushes.Yellow && B1_4.Background == Brushes.Yellow && R1_3.Background == Brushes.Yellow && R1_4.Background == Brushes.Yellow)
             {
+                Box1_4.Background = Brushes.Yellow;
+                y = y + 1;
+                Player02.Content = y;
+            }
+            // BOX 05
+            if (T1_5.Background == Brushes.Yellow && B1_5.Background == Brushes.Yellow && R1_5.Background == Brushes.Yellow && R1_4.Background == Brushes.Yellow)
+            {
+                Box1_5.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
 
-            // BOX 05
-            if (T1_5.Background == Brushes.Yellow && B1_5.Background == Brushes.Yellow && R1_5.Background == Brushes.Yellow && R1_4.Background == Brushes.Yellow)
-            {
-                y = y + 1;
-                Player02.Content = y;
-            }
 
             // BOX 06
             if (B1_1.Background == Brushes.Yellow && B2_1.Background == Brushes.Yellow && L1_2.Background == Brushes.Yellow && R2_1.Background == Brushes.Yellow)
             {
+                Box2_1.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
             // BOX 07 
             if (B1_2.Background == Brushes.Yellow && B2_2.Background == Brushes.Yellow && R2_2.Background == Brushes.Yellow && R2_1.Background == Brushes.Yellow)
             {
+                Box2_2.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
-
             // BOX 08
             if (B1_3.Background == Brushes.Yellow && B2_3.Background == Brushes.Yellow && R2_2.Background == Brushes.Yellow && R2_3.Background == Brushes.Yellow)
             {
+                Box2_3.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
             // BOX 09
             if (B1_4.Background == Brushes.Yellow && B2_4.Background == Brushes.Yellow && R2_4.Background == Brushes.Yellow && R2_3.Background == Brushes.Yellow)
             {
+                Box2_4.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
             // BOX 10
             if (B1_5.Background == Brushes.Yellow && B2_5.Background == Brushes.Yellow && R2_4.Background == Brushes.Yellow && R2_5.Background == Brushes.Yellow)
             {
+                Box2_5.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
@@ -426,110 +424,109 @@ namespace Cheese_Game
             // BOX 11
             if (B3_1.Background == Brushes.Yellow && B2_1.Background == Brushes.Yellow && L1_3.Background == Brushes.Yellow && R3_1.Background == Brushes.Yellow)
             {
+                Box3_1.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
-
             // BOX 12
             if (B3_2.Background == Brushes.Yellow && B2_2.Background == Brushes.Yellow && R3_1.Background == Brushes.Yellow && R3_2.Background == Brushes.Yellow)
             {
+                Box3_2.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
-
             // BOX 13
             if (B3_3.Background == Brushes.Yellow && B2_3.Background == Brushes.Yellow && R3_3.Background == Brushes.Yellow && R3_2.Background == Brushes.Yellow)
             {
+                Box3_3.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
             // BOX 14
             if (B3_4.Background == Brushes.Yellow && B2_4.Background == Brushes.Yellow && R3_3.Background == Brushes.Yellow && R3_4.Background == Brushes.Yellow)
             {
+                Box3_4.Background = Brushes.Yellow;
+                y = y + 1;
+                Player02.Content = y;
+            }
+            // BOX 15
+            if (B3_5.Background == Brushes.Yellow && B2_5.Background == Brushes.Yellow && R3_5.Background == Brushes.Yellow && R3_4.Background == Brushes.Yellow)
+            {
+                Box3_5.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
 
-            // BOX 15
-            if (B3_5.Background == Brushes.Yellow && B2_5.Background == Brushes.Yellow && R3_5.Background == Brushes.Yellow && R3_4.Background == Brushes.Yellow)
-            {
-                y = y + 1;
-                Player02.Content = y;
-            }
 
             // BOX 16
             if (B3_1.Background == Brushes.Yellow && B4_1.Background == Brushes.Yellow && L1_4.Background == Brushes.Yellow && R4_1.Background == Brushes.Yellow)
             {
+                Box4_1.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
             // BOX 17
             if (B3_2.Background == Brushes.Yellow && B4_2.Background == Brushes.Yellow && R4_2.Background == Brushes.Yellow && R4_1.Background == Brushes.Yellow)
             {
+                Box4_2.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
-
             // BOX 18
             if (B3_3.Background == Brushes.Yellow && B4_3.Background == Brushes.Yellow && R4_2.Background == Brushes.Yellow && R4_3.Background == Brushes.Yellow)
             {
+                Box4_3.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
-
             // BOX 19
             if (B3_4.Background == Brushes.Yellow && B4_4.Background == Brushes.Yellow && R4_4.Background == Brushes.Yellow && R4_3.Background == Brushes.Yellow)
             {
+                Box4_4.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
-
             // BOX 20
             if (B3_5.Background == Brushes.Yellow && B4_5.Background == Brushes.Yellow && R4_4.Background == Brushes.Yellow && R4_5.Background == Brushes.Yellow)
             {
+                Box4_5.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
+
 
             // BOX 21
             if (B4_1.Background == Brushes.Yellow && B5_1.Background == Brushes.Yellow && L1_5.Background == Brushes.Yellow && R5_1.Background == Brushes.Yellow)
             {
+                Box5_1.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
             // BOX 22
             if (B4_2.Background == Brushes.Yellow && B5_2.Background == Brushes.Yellow && R5_1.Background == Brushes.Yellow && R5_2.Background == Brushes.Yellow)
             {
+                Box5_2.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
             // BOX 23
             if (B4_3.Background == Brushes.Yellow && B5_3.Background == Brushes.Yellow && R5_2.Background == Brushes.Yellow && R5_3.Background == Brushes.Yellow)
             {
+                Box5_3.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
             // BOX 24
             if (B4_4.Background == Brushes.Yellow && B5_4.Background == Brushes.Yellow && R5_4.Background == Brushes.Yellow && R5_3.Background == Brushes.Yellow)
             {
+                Box5_4.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
-
-
             // BOX 25
             if (B4_5.Background == Brushes.Yellow && B5_5.Background == Brushes.Yellow && R5_4.Background == Brushes.Yellow && R5_5.Background == Brushes.Yellow)
             {
+                Box5_5.Background = Brushes.Yellow;
                 y = y + 1;
                 Player02.Content = y;
             }
