@@ -38,4 +38,5 @@ In the future we could add the feature that allows you to play against a compute
 
 ## Support
 
-If you have any questions regarding our game, you can contact us via sara.ctrl@outlook.com. We're happy to help and answer the questions to how we wrote our code.
+If you have any questions regarding our game, you can contact us via this email: sara.ctrl@outlook.com. 
+We're happy to help and answer the questions any open questions.
