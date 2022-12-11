@@ -41,4 +41,4 @@ The website was created with CSS and HTML. You can access it by clicking "HELP" 
 ## Support
 
 If you have any questions regarding our game, you can contact us via this email: sara.ctrl@outlook.com. 
-We're happy to help and answer the questions any open questions.
+We're happy to help and answer any open questions.
