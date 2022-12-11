@@ -28,9 +28,7 @@ namespace Cheese_Game
     /// </summary>
     public partial class MainWindow : Window
     {
-        // Connected to lines
-        //public Lines button = new();
-        //public Lines newgame = new();
+     
         private bool turn = true;
         // List in List
         List<List<Element>> elements = new List<List<Element>>();
@@ -82,50 +80,29 @@ namespace Cheese_Game
 
             DataContext = elements;
 
-            //foreach(List<Element> listElement in elements)
-            //{
-            //    foreach(Element element in listElement)
-            //    {
-            //        if (element. == )
-            //        {
-
-            //            Player01.Content = ;
-            //        }
-            //        else if (Left.Color == && Right.Color == && Top.Color == && Bottom.Color ==)
-            //        {
-            //            Player02.Content = i;
-            //        }
-            //    }
-
-            //}
-
-
-
 
         }
 
 
-        // Method "OnClick" 
+        /// Method "OnClick" 
         public void OnClick(object sender, RoutedEventArgs e)
         {
 
 
-            // This part of the code changes the color of the buttons interchangeably 
+            /// This part of the code changes the color of the buttons interchangeably 
 
             Button b = (Button)sender;
 
             if (this.turn)
             {
 
-                //b.Background = new SolidColorBrush(Color.FromRgb(0xC3, 0x00, 0xFF));
 
                 b.Background = Brushes.BlueViolet;
 
             }
             else
             {
-                //b.Background = new SolidColorBrush(Color.FromRgb(0xE7, 0xFF, 0x08));
-
+              
                 b.Background = Brushes.Yellow;
             }
 
@@ -326,15 +303,7 @@ namespace Cheese_Game
                 i = i + 1;
                 Player01.Content = i;
             }
-            //if (L1_1.IsEnabled == false && L1_2.IsEnabled == false && L1_3.IsEnabled == false && L1_4.IsEnabled == false && L1_5.IsEnabled == false && R1_1.IsEnabled == false && R1_2.IsEnabled == false && R1_3.IsEnabled == false && R1_4.IsEnabled == false && R1_5.IsEnabled == false && R2_1.IsEnabled == false && R2_2.IsEnabled == false && R2_3.IsEnabled == false && R2_4.IsEnabled == false && R2_5.IsEnabled == false
-            //    && R3_1.IsEnabled == false && R3_2.IsEnabled == false && R3_3.IsEnabled == false && R3_4.IsEnabled == false && R3_5.IsEnabled == false && R4_1.IsEnabled == false && R4_2.IsEnabled == false && R4_3.IsEnabled == false && R4_4.IsEnabled == false && R4_5.IsEnabled == false && R5_1.IsEnabled == false && R5_2.IsEnabled == false && R5_3.IsEnabled == false && R5_4.IsEnabled == false && R5_5.IsEnabled == false
-            //    && T1_1.IsEnabled == false && T1_2.IsEnabled == false && T1_3.IsEnabled == false && T1_4.IsEnabled == false && T1_5.IsEnabled == false && B1_1.IsEnabled == false && B1_2.IsEnabled == false && B1_3.IsEnabled == false && B1_4.IsEnabled == false && B1_5.IsEnabled == false && B2_1.IsEnabled == false && B2_2.IsEnabled == false && B2_3.IsEnabled == false && B2_4.IsEnabled == false && B2_5.IsEnabled == false
-            //    && B3_1.IsEnabled == false && B3_2.IsEnabled == false && B3_3.IsEnabled == false && B3_4.IsEnabled == false && B3_5.IsEnabled == false && B4_1.IsEnabled == false && B4_2.IsEnabled == false && B4_3.IsEnabled == false && B4_4.IsEnabled == false && B4_5.IsEnabled == false && B5_1.IsEnabled == false && B5_2.IsEnabled == false && B5_3.IsEnabled == false && B5_4.IsEnabled == false && B5_5.IsEnabled == false
-            //    )
-            //{
-            //    player1 = i;
-            //    GetWinner();
-            //}
+        
 
 
             // Yellow Lines == Player 02
